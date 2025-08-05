@@ -1,0 +1,90 @@
+.Chefe > form {
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    padding: 20px;
+    color: orangered;
+    font-size: large;
+}
+
+.Chefe > form > label {
+    font-size: 0.8rem; /* Larger label text */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Chefe > form > input,
+.Chefe > form > select,
+.Chefe > form > button { 
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.Chefe > section {
+    color: aliceblue;
+    text-align: left;
+    margin: 10px;
+    border: 1px solid orangered;
+    width: 400px;
+    height: auto;
+    overflow: auto;
+}
+
+.Chefe > form > label {
+    font-size: 1.4rem; /* Larger label text */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.Chefe > form > button {
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.Chefe > form > button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+.Chefe > section {
+    color: aliceblue;
+    text-align: left;
+    margin: 10px;
+    border: 1px solid orangered;
+    width: 20px;
+    height: auto;
+    overflow: auto;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards 0.5s;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.Chefe > section {
+    width: 70%;
+    height: auto
+}
+
+

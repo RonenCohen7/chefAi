@@ -1,0 +1,29 @@
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 400px;
+    background-image: url("../../../assets/Images/cheHet2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px;
+    color: orangered;
+    padding: 40px;
+    
+    
+}
+
+
+.about-content {
+    max-width: 40%;
+    background: #d702d099; /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#chefatID {
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px;
+}

@@ -1,0 +1,30 @@
+.VipArea {
+	color: red;
+}
+
+.VipArea > header  > div > img {
+    visibility: hidden;
+}
+
+.VipArea > form > button {
+    background-color: red;
+    color: aliceblue;
+    width: 80px;
+    border-radius: 20px;
+
+}
+
+.VipArea > form > button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: red;
+}
+
+.VipArea > form {
+    padding: 10px;
+    margin: auto;
+    border: 1px solid red;
+    width: 300px;
+    box-shadow: 10px 10px 5px red;
+}
+

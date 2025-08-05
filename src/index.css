@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    height: 100%;
+    background-image: linear-gradient(hsla(0, 3%, 7%, 0.882),rgb(8, 0, 3));
+    background-attachment: fixed;
+}
+
+
+
+a{
+    color: orangered;
+}

@@ -1,0 +1,11 @@
+.Menu {
+    margin-top: 40px;
+}
+
+.Menu  > a {
+	margin-right: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+   
+}
